@@ -43,9 +43,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(1, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 13);
+            this.label1.Size = new System.Drawing.Size(74, 13);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Sintepart S.R.L©";
+            this.label1.Text = "ARCOR S.A©";
             // 
             // lblBienvenido1
             // 
@@ -54,9 +54,9 @@
             this.lblBienvenido1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblBienvenido1.Location = new System.Drawing.Point(12, 62);
             this.lblBienvenido1.Name = "lblBienvenido1";
-            this.lblBienvenido1.Size = new System.Drawing.Size(448, 26);
+            this.lblBienvenido1.Size = new System.Drawing.Size(386, 26);
             this.lblBienvenido1.TabIndex = 7;
-            this.lblBienvenido1.Text = "Bienvenido a la aplicación de Sintepart S.R.L";
+            this.lblBienvenido1.Text = "Bienvenido a la aplicación de ARCOR ";
             this.lblBienvenido1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // lblBienvenido2
@@ -66,9 +66,9 @@
             this.lblBienvenido2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblBienvenido2.Location = new System.Drawing.Point(74, 103);
             this.lblBienvenido2.Name = "lblBienvenido2";
-            this.lblBienvenido2.Size = new System.Drawing.Size(310, 17);
+            this.lblBienvenido2.Size = new System.Drawing.Size(337, 17);
             this.lblBienvenido2.TabIndex = 8;
-            this.lblBienvenido2.Text = "Fábrica de autopartes y respuestos moviles Fiat";
+            this.lblBienvenido2.Text = "Fábrica de alimentos, chocolates, galletas y helados";
             // 
             // pictureBox4
             // 
