@@ -257,6 +257,7 @@
             this.cmdCancelar2.TabIndex = 22;
             this.cmdCancelar2.Text = "&Cancelar";
             this.cmdCancelar2.UseVisualStyleBackColor = false;
+            this.cmdCancelar2.Click += new System.EventHandler(this.cmdCancelar2_Click);
             // 
             // CmdAceptar2
             // 
@@ -273,6 +274,7 @@
             this.CmdAceptar2.TabIndex = 23;
             this.CmdAceptar2.Text = "&Aceptar";
             this.CmdAceptar2.UseVisualStyleBackColor = false;
+            this.CmdAceptar2.Click += new System.EventHandler(this.cmdAceptar2_Click);
             // 
             // frmLogin
             // 
