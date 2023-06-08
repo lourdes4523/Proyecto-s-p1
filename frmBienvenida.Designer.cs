@@ -109,7 +109,9 @@
             this.Controls.Add(this.lblBienvenido2);
             this.Controls.Add(this.lblBienvenido1);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmBienvenida";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmBienvenida";
             this.Load += new System.EventHandler(this.frmBienvenida_load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();

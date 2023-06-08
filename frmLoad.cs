@@ -14,25 +14,24 @@ namespace Proyecto_s_p1
     {
         frmLogin lg = new frmLogin();
 
-        public object timerLoad { get; private set; }
-
         public frmLoad()
         {
             InitializeComponent();
         }
+
 
         private void timerLoad_Tick(object sender, EventArgs e)
         {
             pv.Width += 3;
             if (pv.Width > 599)
             {
-                object value = timerLoad.Stop();
+                timerLoad.Stop();
                 lg.Show();
                 this.Hide();
             }
         }
-       
-        private void Form1_Load(object sender, EventArgs e)
+
+        private void frmLoad_Load(object sender, EventArgs e)
         {
             int LoadGordo = this.Width;
             int LoadAlto = this.Height;
@@ -43,8 +42,9 @@ namespace Proyecto_s_p1
             int lblX = (LoadGordo - lblGordo) / 2;
             int lblY = (LoadAlto - lblAlto) / 2;
 
-
-
+            lblCargando.Location = new Point(lblX, lblY);
         }
+
     }
+
 }
